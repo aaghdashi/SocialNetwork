@@ -1,0 +1,99 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="WebApplication6.Admin_Site.Admin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../Users/CSS/User_style_page.css" rel="stylesheet" type="text/css" />
+</head>
+<body bgcolor="#2d3e5c" style="text-align: center">
+    <form id="form1" runat="server">
+    <div class="Header" 
+        style="background-image: url('/Admin_Site/Image/Admin_Page.png')">
+       
+    </div>
+    <div class="RightPanel">
+     <table style="width: 140px;">
+            <tr>
+                <td class="CellRightpanel">
+                    <asp:HyperLink ID="HyperLink_Notes" runat="server" CssClass="link_style" 
+                        NavigateUrl="~/Admin_Site/Nots.aspx">درج اطلاعیه</asp:HyperLink>
+                    <asp:ImageButton ID="ImageButton_Notes" runat="server" Height="32px" 
+                        ImageUrl="~/Admin_Site/Image/bookmark.png" onclick="ImageButton_Notes_Click" 
+                        Width="32px" />
+                </td>
+           </tr>
+           <tr>
+                <td class="CellRightpanel">
+                    <asp:HyperLink ID="HyperLink_New_Admin" runat="server" CssClass="link_style" 
+                        NavigateUrl="~/Admin_Site/Create_New_Admin.aspx" Target="_self">اطلاعات کاربری</asp:HyperLink>
+                    <asp:ImageButton ID="ImageButton_Create_New_Admin" runat="server" 
+                        ImageUrl="~/Admin_Site/Image/User 7 New.png" Width="32px" 
+                        onclick="ImageButton_Create_New_Admin_Click" />
+                </td>
+           </tr>
+           <tr>
+                <td class="CellRightpanel">
+                    <asp:HyperLink ID="HyperLink_Contact_User" runat="server" CssClass="link_style" 
+                        NavigateUrl="~/Admin_Site/Contact_User.aspx">ارتباط با کاربران</asp:HyperLink>
+                    <asp:ImageButton ID="ImageButton_Contact_User" runat="server" 
+                        ImageUrl="~/Admin_Site/Image/Tech.png" 
+                        onclick="ImageButton_Contact_User_Click" />
+                </td>
+           </tr>
+           <tr>
+                <td class="CellRightpanel">
+                    <asp:HyperLink ID="HyperLink1" runat="server" CssClass="link_style" 
+                        NavigateUrl="~/Admin_Site/users.aspx">کاربران عضو</asp:HyperLink>
+                    <asp:ImageButton ID="ImageButton1" runat="server" Height="32px" 
+                        ImageUrl="~/Admin_Site/Image/users (2).png" Width="32px" 
+                        onclick="ImageButton1_Click" />
+                </td>
+           </tr>
+           <tr>
+                <td class="CellRightpanel">
+                    <asp:HyperLink ID="HyperLink_Group" runat="server" CssClass="link_style" 
+                        NavigateUrl="~/Admin_Site/Show_Group.aspx">گروه ها</asp:HyperLink>
+                    <asp:ImageButton ID="ImageButton_Group" runat="server" 
+                        ImageUrl="~/Admin_Site/Image/Group List.png" 
+                        onclick="ImageButton_Group_Click" />
+                </td>
+           </tr>
+           <tr>
+                <td class="CellRightpanel">
+                    <asp:HyperLink ID="HyperLink_Search" runat="server" CssClass="link_style" 
+                        NavigateUrl="~/Admin_Site/Search_Users.aspx">جستجوی کاربران</asp:HyperLink>
+                    <asp:ImageButton ID="ImageButton_Search" runat="server" 
+                        ImageUrl="~/Admin_Site/Image/Search.png" onclick="ImageButton_Search_Click" />
+                </td>
+           </tr>
+           <tr>
+                <td class="CellRightpanel">
+                    <asp:HyperLink ID="HyperLink_Filter" runat="server" CssClass="link_style" 
+                        NavigateUrl="~/Admin_Site/Filter_Word.aspx">فیلترینگ اطلاعات</asp:HyperLink>
+                    <asp:ImageButton ID="ImageButton2" runat="server" 
+                        onclick="ImageButton2_Click" ImageUrl="~/Admin_Site/Image/Filter.gif" 
+                        Width="32px" />
+                </td>
+           </tr>
+           <tr>
+                <td class="CellRightpanel">
+                    <asp:LinkButton ID="LinkButton_Exit" runat="server" CssClass="link_style" 
+                        onclick="LinkButton_Exit_Click" 
+                        onclientclick="return confirm(&quot;آیا مایل به خروج از صحفه کاربری خود می باشید.&quot;);">خروج</asp:LinkButton>
+                    <asp:ImageButton ID="ImageButton_Exit" runat="server" 
+                        ImageUrl="~/Admin_Site/Image/EXIT.png" onclick="ImageButton_Exit_Click" 
+                        onclientclick="return confirm(&quot;آیا مایل به خروج از صحفه کاربری خود می باشید.&quot;);" />
+                </td>
+           </tr>
+     </table>
+    </div>
+     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

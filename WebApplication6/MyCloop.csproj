@@ -1,0 +1,660 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FB7C9598-21BA-4253-9604-3E87FCF58649}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApplication6</RootNamespace>
+    <AssemblyName>WebApplication6</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>SecurityRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CKEditor.NET, Version=3.6.4.0, Culture=neutral, PublicKeyToken=e379cdf2f8354999, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Heidarpour.WebControlUI, Version=1.1.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\arm\Downloads\Heidarpour.WebControlUI__Source_And_Sample_1.1.1_.Net4\Heidarpour.WebControlUI\obj\Debug\Heidarpour.WebControlUI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Build.Utilities.v4.0" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PersianCalendarVB, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\PersianCalendarVB.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Telerik.Web.UI, Version=2011.1.519.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin_Site\Contact_User.aspx" />
+    <Content Include="Admin_Site\Create_New_Admin.aspx" />
+    <Content Include="Admin_Site\Filter_Word.aspx" />
+    <Content Include="Admin_Site\Image\Admin_Page.png" />
+    <Content Include="Admin_Site\Image\Admin_user.png" />
+    <Content Include="Admin_Site\Image\back.jpg" />
+    <Content Include="Admin_Site\Image\Back_login_admin.png" />
+    <Content Include="Admin_Site\Image\bookmark.png" />
+    <Content Include="Admin_Site\Image\EXIT.png" />
+    <Content Include="Admin_Site\Image\Filter.gif" />
+    <Content Include="Admin_Site\Image\Group List.png" />
+    <Content Include="Admin_Site\Image\no_image.png" />
+    <Content Include="Admin_Site\Image\Search.png" />
+    <Content Include="Admin_Site\Image\Tech.png" />
+    <Content Include="Admin_Site\Image\User 7 New.png" />
+    <Content Include="Admin_Site\Image\users %282%29.png" />
+    <Content Include="Admin_Site\Login_Admin.aspx" />
+    <Content Include="Admin_Site\Nots.aspx" />
+    <Content Include="Admin_Site\Search_Users.aspx" />
+    <Content Include="Admin_Site\Show_Group.aspx" />
+    <Content Include="Admin_Site\users.aspx" />
+    <Content Include="App_Data\Social.mdf" />
+    <Content Include="App_Data\Social_log.ldf">
+      <DependentUpon>Social.mdf</DependentUpon>
+    </Content>
+    <Content Include="bin\PersianCalendarVB.dll" />
+    <Content Include="Census_site.aspx" />
+    <Content Include="CSS\lean-slider.css" />
+    <Content Include="CSS\stencil.menu.colors.css" />
+    <Content Include="CSS\stencil.menu.css" />
+    <Content Include="CSS\style.css" />
+    <Content Include="Error_Page.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Groups\CSS\Group_Style_Page.css" />
+    <Content Include="Groups\images\1.png" />
+    <Content Include="Groups\images\back.jpg" />
+    <Content Include="Groups\images\Comment.png" />
+    <Content Include="Groups\images\DOC1.png" />
+    <Content Include="Groups\images\edit.png" />
+    <Content Include="Groups\images\edit_info.png" />
+    <Content Include="Groups\images\EXIT.png" />
+    <Content Include="Groups\images\Group List.png" />
+    <Content Include="Groups\images\member.png" />
+    <Content Include="Groups\images\Message.png" />
+    <Content Include="Groups\images\no_image.png" />
+    <Content Include="Groups\images\pictures.png" />
+    <Content Include="Groups\images\Post.png" />
+    <Content Include="Groups\images\Question.png" />
+    <Content Include="Groups\images\Search.png" />
+    <Content Include="Groups\images\search_G.png" />
+    <Content Include="Groups\images\settings.png" />
+    <Content Include="Groups\images\users.png" />
+    <Content Include="Groups\images\Window Information.png" />
+    <Content Include="Groups\Main_Page_Group.aspx" />
+    <Content Include="Groups\Membership_Gruop.aspx" />
+    <Content Include="Groups\images\MovieFile.png" />
+    <Content Include="Groups\Search_member.aspx" />
+    <Content Include="Groups\Edit_info.aspx" />
+    <Content Include="images\1.jpg" />
+    <Content Include="images\2.jpg" />
+    <Content Include="images\2Contact-Us_05.png" />
+    <Content Include="images\2Contact-Us_07.png" />
+    <Content Include="images\2Contact-Us_08.png" />
+    <Content Include="images\3.jpg" />
+    <Content Include="images\4.jpg" />
+    <Content Include="images\5.jpg" />
+    <Content Include="images\ads468dar60.gif" />
+    <Content Include="images\b.png" />
+    <Content Include="images\back.jpg" />
+    <Content Include="images\back_search.png" />
+    <Content Include="images\cancel.png" />
+    <Content Include="images\complete_info.png" />
+    <Content Include="images\consus.png" />
+    <Content Include="images\contact.jpg" />
+    <Content Include="images\Control-Panel.png" />
+    <Content Include="images\final_subit.png" />
+    <Content Include="images\histogram.png" />
+    <Content Include="images\introduce.jpg" />
+    <Content Include="images\login_main.png" />
+    <Content Include="images\main_p.png" />
+    <Content Include="images\NEWsend.png" />
+    <Content Include="images\NewTable.png" />
+    <Content Include="images\banner.jpg" />
+    <Content Include="images\bottom_right_main.jpg" />
+    <Content Include="images\footer.jpg" />
+    <Content Include="images\left_main.jpg" />
+    <Content Include="images\main.jpg" />
+    <Content Include="images\menu.jpg" />
+    <Content Include="images\no_image.png" />
+    <Content Include="images\photo_usert.png" />
+    <Content Include="images\Result_back.jpg" />
+    <Content Include="images\Rules.png" />
+    <Content Include="images\search.png" />
+    <Content Include="images\signup.png" />
+    <Content Include="images\subject.jpg" />
+    <Content Include="images\submit.png" />
+    <Content Include="images\Suggest.png" />
+    <Content Include="images\top_right_main.jpg" />
+    <None Include="JScripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Javascript\calendar-fa.js" />
+    <Content Include="Javascript\calendar-setup.js" />
+    <Content Include="Javascript\calendar.js" />
+    <Content Include="Javascript\datepicker.js" />
+    <Content Include="Javascript\jalali.js" />
+    <Content Include="JScripts\jquery-1.4.1.js" />
+    <Content Include="JScripts\jquery-1.4.1.min.js" />
+    <Content Include="JScripts\jquery-1.7.2.min.js" />
+    <Content Include="JScripts\JsFarsiCalendar.js" />
+    <Content Include="JScripts\layout.js" />
+    <Content Include="JScripts\lean-slider.js" />
+    <Content Include="JScripts\modernizr-2.6.1.min.js" />
+    <Content Include="Map\CSS\iranmap.css" />
+    <Content Include="Map\CSS\iranmap.min.css" />
+    <Content Include="Map\Js\iranmap.js" />
+    <Content Include="Map\Js\iranmap.min.js" />
+    <Content Include="Map\Js\jquery-2.1.0.min.js" />
+    <Content Include="Result_Page.aspx" />
+    <Content Include="rules.aspx" />
+    <Content Include="signup.aspx" />
+    <Content Include="Users\Chat_Page.aspx" />
+    <Content Include="Users\CSS\StyleSheet_Chat.css" />
+    <Content Include="Users\CSS\User_style_page.css" />
+    <Content Include="Users\Gap_MemberShip_Group.aspx" />
+    <Content Include="Users\images\1.png" />
+    <Content Include="Users\images\back.gif" />
+    <Content Include="Users\images\back.jpg" />
+    <Content Include="Users\images\cancel.gif" />
+    <Content Include="Users\images\chart.gif" />
+    <Content Include="Users\images\chat.png" />
+    <Content Include="Users\images\Comment.png" />
+    <Content Include="Users\images\conrolpanel.png" />
+    <Content Include="Users\images\Contact Information.png" />
+    <Content Include="Users\images\Create Mess.png" />
+    <Content Include="Users\images\DOC1.png" />
+    <Content Include="Users\images\downloads.png" />
+    <Content Include="Users\images\edit.png" />
+    <Content Include="Users\images\EXIT.png" />
+    <Content Include="Users\images\Files-text.png" />
+    <Content Include="Users\images\folder.png" />
+    <Content Include="Users\images\Friend.png" />
+    <Content Include="Users\images\gallery.png" />
+    <Content Include="Users\images\go.gif" />
+    <Content Include="Users\images\Group List.png" />
+    <Content Include="Users\images\icon_friend.png" />
+    <Content Include="Users\images\lock.gif" />
+    <Content Include="Users\images\mail_attention.png" />
+    <Content Include="Users\images\main_p.png" />
+    <Content Include="Users\images\Make_Group.png" />
+    <Content Include="Users\images\manegement_f.png" />
+    <Content Include="Users\images\member.png" />
+    <Content Include="Users\images\mess.png" />
+    <Content Include="Users\images\Message.png" />
+    <Content Include="Users\images\Movie.png" />
+    <Content Include="Users\images\MovieFile.png" />
+    <Content Include="Users\images\My Documents.png" />
+    <Content Include="Users\images\My Images.png" />
+    <Content Include="Users\images\My Videos.png" />
+    <Content Include="Users\images\no_image.png" />
+    <Content Include="Users\images\pictures.png" />
+    <Content Include="Users\images\Post.png" />
+    <Content Include="Users\images\Question.png" />
+    <Content Include="Users\images\Search.png" />
+    <Content Include="Users\images\Search_users.png" />
+    <Content Include="Users\images\settings.png" />
+    <Content Include="Users\images\shopping-cart2.gif" />
+    <Content Include="Users\images\submit.png" />
+    <Content Include="Users\images\Symbol Configuration.png" />
+    <Content Include="Users\images\unlocked.gif" />
+    <Content Include="Users\images\upload.png" />
+    <Content Include="Users\images\user.png" />
+    <Content Include="Users\images\users %282%29.png" />
+    <Content Include="Users\images\users.png" />
+    <Content Include="Users\images\Window Information.png" />
+    <Content Include="Users\Main_page_user.aspx" />
+    <Content Include="Users\Requests.aspx" />
+    <Content Include="Users\Users_comments.aspx" />
+    <Content Include="Users\Users_post.aspx" />
+    <Content Include="Users\Users_search.aspx" />
+    <Content Include="Users\Users_Friends.aspx" />
+    <Content Include="Users\User_BlockList.aspx" />
+    <Content Include="Users\User_Census.aspx" />
+    <Content Include="Users\User_Chat.aspx" />
+    <Content Include="Users\User_Edit_Info.aspx" />
+    <Content Include="Users\User_Message.aspx" />
+    <Content Include="Users\User_Show_Group.aspx" />
+    <Content Include="Users\User_Setting_Account.aspx" />
+    <Content Include="Users\User_Files.aspx" />
+    <Content Include="Users\View_Info_User.aspx" />
+    <Content Include="User_info.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Default.aspx" />
+    <Content Include="login.aspx" />
+    <Content Include="about.aspx" />
+    <Content Include="contact.aspx" />
+    <Content Include="search_user.aspx" />
+    <None Include="Properties\PublishProfiles\Patoq.pubxml" />
+    <None Include="Properties\PublishProfiles\project.pubxml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin_Site\Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_Site\Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Site\Contact_User.aspx.cs">
+      <DependentUpon>Contact_User.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_Site\Contact_User.aspx.designer.cs">
+      <DependentUpon>Contact_User.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Site\Create_New_Admin.aspx.cs">
+      <DependentUpon>Create_New_Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_Site\Create_New_Admin.aspx.designer.cs">
+      <DependentUpon>Create_New_Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Site\Filter_Word.aspx.cs">
+      <DependentUpon>Filter_Word.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_Site\Filter_Word.aspx.designer.cs">
+      <DependentUpon>Filter_Word.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Site\Login_Admin.aspx.cs">
+      <DependentUpon>Login_Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_Site\Login_Admin.aspx.designer.cs">
+      <DependentUpon>Login_Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Site\Nots.aspx.cs">
+      <DependentUpon>Nots.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_Site\Nots.aspx.designer.cs">
+      <DependentUpon>Nots.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Site\Search_Users.aspx.cs">
+      <DependentUpon>Search_Users.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_Site\Search_Users.aspx.designer.cs">
+      <DependentUpon>Search_Users.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Site\Show_Group.aspx.cs">
+      <DependentUpon>Show_Group.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_Site\Show_Group.aspx.designer.cs">
+      <DependentUpon>Show_Group.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Site\users.aspx.cs">
+      <DependentUpon>users.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_Site\users.aspx.designer.cs">
+      <DependentUpon>users.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_code\Cloop_class.cs" />
+    <Compile Include="Crypt.cs" />
+    <Compile Include="Date_Convert.cs" />
+    <Compile Include="Search.cs" />
+    <Compile Include="Users\Chat_Page.aspx.cs">
+      <DependentUpon>Chat_Page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Users\Chat_Page.aspx.designer.cs">
+      <DependentUpon>Chat_Page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Users\Gap_MemberShip_Group.aspx.cs">
+      <DependentUpon>Gap_MemberShip_Group.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Users\Gap_MemberShip_Group.aspx.designer.cs">
+      <DependentUpon>Gap_MemberShip_Group.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Users\Requests.aspx.cs">
+      <DependentUpon>Requests.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Users\Requests.aspx.designer.cs">
+      <DependentUpon>Requests.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Users\Users_post.aspx.cs">
+      <DependentUpon>Users_post.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Users\Users_post.aspx.designer.cs">
+      <DependentUpon>Users_post.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Users\User_BlockList.aspx.cs">
+      <DependentUpon>User_BlockList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Users\User_BlockList.aspx.designer.cs">
+      <DependentUpon>User_BlockList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Users\User_Census.aspx.cs">
+      <DependentUpon>User_Census.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Users\User_Census.aspx.designer.cs">
+      <DependentUpon>User_Census.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Users\User_Chat.aspx.cs">
+      <DependentUpon>User_Chat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Users\User_Chat.aspx.designer.cs">
+      <DependentUpon>User_Chat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Users\View_Info_User.aspx.cs">
+      <DependentUpon>View_Info_User.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Users\View_Info_User.aspx.designer.cs">
+      <DependentUpon>View_Info_User.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User_info.aspx.cs">
+      <DependentUpon>User_info.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User_info.aspx.designer.cs">
+      <DependentUpon>User_info.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Census_site.aspx.cs">
+      <DependentUpon>Census_site.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Census_site.aspx.designer.cs">
+      <DependentUpon>Census_site.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Error_Page.aspx.cs">
+      <DependentUpon>Error_Page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error_Page.aspx.designer.cs">
+      <DependentUpon>Error_Page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Groups\Admins_master.Master.cs">
+      <DependentUpon>Admins_master.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Groups\Admins_master.Master.designer.cs">
+      <DependentUpon>Admins_master.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Groups\Main_Page_Group.aspx.cs">
+      <DependentUpon>Main_Page_Group.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Groups\Main_Page_Group.aspx.designer.cs">
+      <DependentUpon>Main_Page_Group.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Groups\Membership_Gruop.aspx.cs">
+      <DependentUpon>Membership_Gruop.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Groups\Membership_Gruop.aspx.designer.cs">
+      <DependentUpon>Membership_Gruop.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Groups\Search_member.aspx.cs">
+      <DependentUpon>Search_member.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Groups\Search_member.aspx.designer.cs">
+      <DependentUpon>Search_member.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Groups\Edit_info.aspx.cs">
+      <DependentUpon>Edit_info.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Groups\Edit_info.aspx.designer.cs">
+      <DependentUpon>Edit_info.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Make_Post.cs" />
+    <Compile Include="Result_Page.aspx.cs">
+      <DependentUpon>Result_Page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Result_Page.aspx.designer.cs">
+      <DependentUpon>Result_Page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Users\Users_master.Master.cs">
+      <DependentUpon>Users_master.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Users\Users_master.Master.designer.cs">
+      <DependentUpon>Users_master.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Users\Main_page_user.aspx.cs">
+      <DependentUpon>Main_page_user.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Users\Main_page_user.aspx.designer.cs">
+      <DependentUpon>Main_page_user.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Users\Users_comments.aspx.cs">
+      <DependentUpon>Users_comments.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Users\Users_comments.aspx.designer.cs">
+      <DependentUpon>Users_comments.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Users\Users_search.aspx.cs">
+      <DependentUpon>Users_search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Users\Users_search.aspx.designer.cs">
+      <DependentUpon>Users_search.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Users\Users_Friends.aspx.cs">
+      <DependentUpon>Users_Friends.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Users\Users_Friends.aspx.designer.cs">
+      <DependentUpon>Users_Friends.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Users\User_Edit_Info.aspx.cs">
+      <DependentUpon>User_Edit_Info.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Users\User_Edit_Info.aspx.designer.cs">
+      <DependentUpon>User_Edit_Info.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Users\User_Message.aspx.cs">
+      <DependentUpon>User_Message.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Users\User_Message.aspx.designer.cs">
+      <DependentUpon>User_Message.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Users\User_Show_Group.aspx.cs">
+      <DependentUpon>User_Show_Group.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Users\User_Show_Group.aspx.designer.cs">
+      <DependentUpon>User_Show_Group.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Users\User_Setting_Account.aspx.cs">
+      <DependentUpon>User_Setting_Account.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Users\User_Setting_Account.aspx.designer.cs">
+      <DependentUpon>User_Setting_Account.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Users\User_Files.aspx.cs">
+      <DependentUpon>User_Files.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Users\User_Files.aspx.designer.cs">
+      <DependentUpon>User_Files.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="master_main.Master.cs">
+      <DependentUpon>master_main.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="master_main.Master.designer.cs">
+      <DependentUpon>master_main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="about.aspx.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="about.aspx.designer.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contact.aspx.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contact.aspx.designer.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rules.aspx.cs">
+      <DependentUpon>rules.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="rules.aspx.designer.cs">
+      <DependentUpon>rules.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="search_user.aspx.cs">
+      <DependentUpon>search_user.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="search_user.aspx.designer.cs">
+      <DependentUpon>search_user.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="signup.aspx.cs">
+      <DependentUpon>signup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="signup.aspx.designer.cs">
+      <DependentUpon>signup.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="master_main.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Groups\Image_Group\" />
+    <Folder Include="Users\Files\" />
+    <Folder Include="Users\Image_User\" />
+    <Folder Include="Users\pics\" />
+    <Folder Include="Users\Videos\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Users\Users_master.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Groups\Admins_master.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin_Site\Admin.Master" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>14746</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,131 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="master_main.master.cs"
+    Inherits="WebApplication6.master_main" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<asp:contentplaceholder id="head" runat="server">
+    </asp:contentplaceholder>
+<head id="Head1" runat="server">
+    <title>MyCloop</title>
+    <style type="text/css">
+        /*li {
+            display: inline;
+            list-style-type: none;
+            border: 0;           
+            margin-top: 5px;
+            direction: rtl;
+            border-style: none;
+            outline-style: none;
+            padding: 2px 0px 0px 0px;
+            font-style: oblique;
+           
+            text-align: center;
+            vertical-align: text-top;
+            bottom: 2px;
+            cursor: pointer;
+        }*/
+
+        a {
+            border-style: none;
+            outline-color: none;
+            vertical-align: text-top;
+            font-size: larger;
+            font-family: Tahoma,Arial;
+            text-decoration: none;
+            text-transform: none;
+            cursor: pointer;
+        }
+
+            a:hover {
+                cursor: pointer;
+                font-size: medium;
+                color: White;
+            }
+    </style>
+    <link href="CSS/calendar.css" rel="stylesheet" />
+    <script src="JScripts/JsFarsiCalendar.js"></script>
+    <link rel="stylesheet" href="CSS/style.css" type="text/css" media="screen" />
+    <script src="JScripts/modernizr-2.6.1.min.js"></script>    
+    <script src="JScripts/jquery-1.7.2.min.js"></script>
+    <script src="JScripts/lean-slider.js"></script>
+	<script src="JScripts/layout.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="CSS/lean-slider.css" type="text/css" />
+    <link rel="stylesheet" href="CSS/stencil.menu.css" type="text/css" />
+	<link rel="stylesheet" href="CSS/stencil.menu.colors.css" type="text/css" /> 
+</head>
+<body bgcolor="White">
+    <form name="main" runat="server" method="post">
+        <table id="Table_01" width="960" border="0" cellpadding="0" cellspacing="0" align="center"
+            bgcolor="White" style="font-family: tahoma, 'b zar', arial">
+            
+            <tr>
+                <td>
+                    <div id="slidepic">
+
+                        <div id="image">
+                            <div id="holder">
+                                
+                            </div>
+                            <img id="show" src="" />
+
+                        </div>
+                        <div id="bar"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    
+
+                    <div class="navigation" style="z-index: 7;">
+
+                        <ul class="stn-menu blue" style="border-style: none; font-family: arial, tahoma; text-align: center; direction: rtl; list-style-type: none; font-size: small;"
+                        type="none">
+                        <li><a href="Default.aspx">
+                            صحفه اصلی&nbsp; 
+                        </a></li>
+                        
+                        <li><a href="login.aspx">
+                            ورود اعضا&nbsp;
+                        </a> </li>
+                        
+                        <li><a href="signup.aspx">
+                            &nbsp; عضویت&nbsp; 
+                        </a></li>
+                        
+                        <li><a href="search_user.aspx">
+                            &nbsp;کاربران عضو&nbsp; 
+                        </a></li>
+                         <li><a href="Census_site.aspx">
+                            آمار سایت 
+                        </a></li>
+                        <li><a href="rules.aspx">
+                            &nbsp; قوانین&nbsp; 
+                        </a></li>
+                        &nbsp;
+                       <li> <a href="">
+                            &nbsp;درباره...
+                        </a></li>
+                        &nbsp; &nbsp;&nbsp;
+                        <li><a href="contact.aspx">
+                            ارتباط با ...&nbsp; 
+                        </a></li>
+                    </ul>
+	
+</div>			
+            </tr>
+            <tr>
+                <td>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td height="35" style="background-image: url(images/footer.jpg); background-repeat: no-repeat; background-position: center center; background-color: #3CA3D0;"
+                    width="35">
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>

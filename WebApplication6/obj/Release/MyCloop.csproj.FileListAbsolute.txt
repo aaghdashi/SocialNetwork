@@ -1,0 +1,13 @@
+C:\Users\arman\Desktop\WebApplication6\WebApplication6\bin\WebApplication6.dll
+C:\Users\arman\Desktop\WebApplication6\WebApplication6\bin\WebApplication6.pdb
+C:\Users\arman\Desktop\WebApplication6\WebApplication6\obj\Release\ResolveAssemblyReference.cache
+C:\Users\arman\Desktop\WebApplication6\WebApplication6\obj\Release\WebApplication6.dll
+C:\Users\arman\Desktop\WebApplication6\WebApplication6\obj\Release\WebApplication6.pdb
+D:\WebApplication6\WebApplication6\WebApplication6\bin\WebApplication6.dll.config
+D:\WebApplication6\WebApplication6\WebApplication6\bin\WebApplication6.dll
+D:\WebApplication6\WebApplication6\WebApplication6\bin\WebApplication6.pdb
+D:\WebApplication6\WebApplication6\WebApplication6\bin\Heidarpour.WebControlUI.dll
+D:\WebApplication6\WebApplication6\WebApplication6\bin\Heidarpour.WebControlUI.pdb
+D:\WebApplication6\WebApplication6\WebApplication6\obj\Release\MyCloop.csprojResolveAssemblyReference.cache
+D:\WebApplication6\WebApplication6\WebApplication6\obj\Release\WebApplication6.dll
+D:\WebApplication6\WebApplication6\WebApplication6\obj\Release\WebApplication6.pdb

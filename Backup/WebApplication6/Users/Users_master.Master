@@ -1,0 +1,169 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Users_master.master.cs"
+    Inherits="WebApplication6.Users.Users_master" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="CSS/User_style_page.css" rel="stylesheet" type="text/css" />
+    <title></title>
+</head>
+<body style="font-family: tahoma, arial; font-size: small; font-weight: normal; text-align: center;
+    background-repeat: repeat; width: 960px; height: 700px; background-color: #2E405F;
+    background-image: url('/Users/images/1.png');" align="center">
+    <form name="User_Form" runat="server">
+    <div class="Header" align="center">
+        <table align="right" dir="rtl" class="Headertable">
+            <tr>
+                <td rowspan="5" width="100">
+                    <asp:Image ID="Img_User0" runat="server" Height="120px" Width="100px" />
+                </td>
+                <td width="400" height="22" style="font-family: tahoma; font-size: x-small; text-align: right;
+                    vertical-align: middle; color: #FFFFFF;">
+                    نام :<asp:Label ID="Label_name" runat="server" Text="Label"></asp:Label>
+                </td>
+                <td width="400" height="22px" style="font-family: tahoma; font-size: x-small; text-align: right;
+                    vertical-align: middle; color: #FFFFFF;">
+                    امروز :<asp:Label ID="Label_Date_equal" runat="server" Text="Label"></asp:Label>
+                </td>
+            </tr>
+            <tr>
+                <td width="400" height="22" style="font-family: tahoma; font-size: x-small; text-align: right;
+                    vertical-align: middle; color: #FFFFFF;">
+                    نام خانوادگی :<asp:Label ID="Label_family" runat="server" Text="Label"></asp:Label>
+                </td>
+                <td width="400" height="22px" style="font-family: tahoma; font-size: x-small; text-align: right;
+                    vertical-align: middle; color: #FFFFFF;" dir="rtl">
+                    مصادف با :<asp:Label ID="Label_Date_today" runat="server" Text="Label"></asp:Label>
+                </td>
+            </tr>
+            <tr>
+                <td width="400" height="22" style="font-family: tahoma; font-size: x-small; text-align: right;
+                    vertical-align: middle; color: #FFFFFF;">
+                    نام کاربری :<asp:Label ID="Label_name_account" runat="server" Text="Label"></asp:Label>
+                </td>
+                <td width="400" height="22px" style="font-family: tahoma; font-size: x-small; text-align: right;
+                    vertical-align: middle; color: #FFFFFF;">
+                    تعداد کاربران آنلاین :<asp:Label ID="Label_Online_User" runat="server" Text="Label"></asp:Label>
+                </td>
+            </tr>
+            <tr>
+                <td width="400" height="22" style="font-family: tahoma; font-size: x-small; text-align: right;
+                    vertical-align: middle; color: #FFFFFF;" dir="rtl">
+                    تاریخ عضویت :<asp:Label ID="Label_Date_Member" runat="server" Text="Label"></asp:Label>
+                </td>
+                <td width="400" align="left" rowspan="2" style="vertical-align: top" 
+                    height="48">
+                    &nbsp;
+                    <div style="vertical-align: top; position: relative; width: 48px; height: 48px; text-align: left;">
+                        <a href="Main_page_user.aspx" target="_self" class="link_style visited_link" style="border-style: none">
+                            <asp:Image ID="Image1" runat="server" ImageUrl="~/images/main_p.png" CssClass="link_style visited_link"
+                                Height="48" Width="48" /></a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td width="400" height="22" style="font-family: tahoma; font-size: x-small; text-align: right;
+                    vertical-align: middle; color: #FFFFFF;">
+                    تعداد دوستان :<asp:Label ID="Label_Count_friend" runat="server" Text="Label"></asp:Label>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="RightPanel" >
+        <table style="width: 140px;">
+            <tr>
+                <td class="CellRightpanel">
+                    <asp:HyperLink ID="hlk_Comments" runat="server" CssClass="link_style visited_link"
+                        NavigateUrl="~/Users/Users_post.aspx" Target="_self">پست ها</asp:HyperLink>
+                    <asp:ImageButton ID="Img_btn_Comments" runat="server" ImageUrl="~/Users/images/Comment.png"
+                        OnClick="Img_btn_Comments_Click" />
+                </td>
+            </tr>
+            <tr>
+                <td class="CellRightpanel">
+                    <asp:HyperLink ID="hlk_Search" runat="server" CssClass="link_style visited_link"
+                        NavigateUrl="~/Users/Users_search.aspx" Target="_self">جستجو</asp:HyperLink>
+                    <asp:ImageButton ID="Img_btn_Search" runat="server" ImageUrl="~/Users/images/Search.png"
+                        OnClick="Img_btn_Search_Click" />
+                </td>
+            </tr>
+            <tr>
+                <td class="CellRightpanel">
+                    <asp:HyperLink ID="hlk_Friends" runat="server" CssClass="link_style visited_link"
+                        NavigateUrl="~/Users/Users_Friends.aspx" Target="_self">دوستان</asp:HyperLink>
+                    <asp:ImageButton ID="Img_btn_Friends" runat="server" ImageUrl="~/Users/images/users.png"
+                        OnClick="Img_btn_Friends_Click" />
+                </td>
+            </tr>
+            <tr>
+                <td class="CellRightpanel">
+                    <asp:HyperLink ID="hlk_Files" runat="server" CssClass="link_style visited_link "
+                        NavigateUrl="~/Users/User_Files.aspx" Target="_self">فایل ها</asp:HyperLink>
+                    <asp:ImageButton ID="Img_btn_Document" runat="server" ImageUrl="~/Users/images/folder.png"
+                        OnClick="Img_btn_Document_Click" />
+                </td>
+            </tr>
+            <tr>
+                <td class="CellRightpanel">
+                    <asp:HyperLink ID="hlk_Messages" runat="server" CssClass="link_style visited_link"
+                        NavigateUrl="~/Users/User_Message.aspx" Target="_self">پیام ها</asp:HyperLink>
+                    <asp:ImageButton ID="Img_btn_Messages" runat="server" ImageUrl="~/Users/images/Message.png"
+                        OnClick="Img_btn_Messages_Click" />
+                </td>
+            </tr>
+            <tr>
+                <td class="CellRightpanel">
+                    <asp:HyperLink ID="hlk_Edit_User" runat="server" CssClass="link_style visited_link"
+                        NavigateUrl="~/Users/User_Edit_Info.aspx" Target="_self">ویرایش اطلاعات</asp:HyperLink>
+                    <asp:ImageButton ID="Img_btn_Edit" runat="server" ImageUrl="~/Users/images/edit.png"
+                        OnClick="Img_btn_Edit_Click" />
+                </td>
+            </tr>
+            <tr>
+                <td class="CellRightpanel">
+                    <asp:HyperLink ID="hlk_Groups" runat="server" CssClass="link_style visited_link"
+                        NavigateUrl="~/Users/User_Show_Group.aspx" Target="_self">گروه ها </asp:HyperLink>
+                    <asp:ImageButton ID="Img_btn_Groups" runat="server" ImageUrl="~/Users/images/Group List.png"
+                        OnClick="Img_btn_Groups_Click" />
+                </td>
+            </tr>
+            <tr>
+                <td class="CellRightpanel">
+                    <asp:HyperLink ID="hlk_Setting_User" runat="server" CssClass="link_style visited_link"
+                        NavigateUrl="~/Users/User_Setting_Account.aspx" Target="_self">تنظیمات</asp:HyperLink>
+                    <asp:ImageButton ID="Img_btn_Setting_User" runat="server" ImageUrl="~/Users/images/Symbol Configuration.png"
+                        OnClick="Img_btn_Setting_User_Click" />
+                </td>
+            </tr>
+            <tr>
+                <td class="CellRightpanel">
+                    <asp:HyperLink ID="hlk_Chat" runat="server" CssClass="link_style visited_link" 
+                        NavigateUrl="~/Users/Chat_Page.aspx">چت</asp:HyperLink>
+                    <asp:ImageButton ID="Img_btn_Chat" runat="server" ImageUrl="~/Users/images/chat.png"
+                        OnClick="Img_btn_Chat_Click" />
+                </td>
+            </tr>
+            <tr>
+                <td class="CellRightpanel">
+                    <asp:LinkButton ID="LinkButton_Exit" runat="server" 
+                        CssClass="link_style visited_link" onclick="LinkButton_Exit_Click" 
+                        onclientclick="return confirm(&quot;آیا مایل به خروج از صحفه کاربری خود می باشید.&quot;);" >خروج</asp:LinkButton>
+                    <asp:ImageButton ID="Img_btn_Exit" runat="server" Height="28px" ImageUrl="~/Users/images/EXIT.png"
+                        Width="28px" OnClick="Img_btn_Exit_Click" 
+                        onclientclick="return confirm(&quot;آیا مایل به خروج از صحفه کاربری خود می باشید.&quot;);" />
+                </td>
+            </tr>
+        </table>
+    </div>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+    </asp:ContentPlaceHolder>
+    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>"
+        
+        SelectCommand="SELECT COUNT(Response_User_ID) AS Expr1 FROM Request_Friend_tbl WHERE Response_User_ID=@id_user">
+        <SelectParameters>
+            <asp:QueryStringParameter Name="id_user" QueryStringField="id_user" />
+        </SelectParameters>
+    </asp:SqlDataSource>
+    </form>
+</body>
+</html>

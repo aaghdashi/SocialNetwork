@@ -1,0 +1,170 @@
+﻿.RightPanel
+{
+    font-family: tahoma, arial;
+    font-size: small;
+    vertical-align: middle;
+    text-align: right;
+    position: absolute;
+    width: 140px;
+    float: right;
+    right: 160px;
+    top: 160px; 
+    background-color: #45597C;
+    
+}
+
+.CellRightpanel
+{
+    font-family: tahoma, arial;
+    font-size: small;
+    vertical-align: middle;
+    text-align: right;
+    color: #BCC7D8;
+    width: 140px;
+    min-height:0px;
+    height: 30px;
+}
+
+.Header
+{
+    font-family: tahoma, arial;
+    font-size: small;
+    font-style: normal;
+    font-weight: normal;
+    vertical-align: middle;
+    width: 900px; 
+    height: 140px;
+    top: 10px;
+    right: 160px;
+    position: absolute;
+    float: right;
+    background-color: #43577B;
+}
+
+.Headertable
+{
+width: 900px;
+font-family: tahoma, arial;
+font-size: small;
+font-weight: normal;
+font-style: normal;
+vertical-align: middle;
+text-align: right;
+height: 140px;
+}
+
+.mainContent
+{
+    font-family: tahoma, arial;
+    font-size: small;
+    font-weight: normal;
+    text-align: right;
+    background-color: #9CAAC1;
+    width: 750px;
+    top: 160px;
+    right: 310px;
+    float: right;
+    position: absolute;
+    min-height: 400px;
+    vertical-align: top;
+    
+}
+
+.ContentUserPage
+{
+   font-family: tahoma, arial;
+   font-size: small;
+   font-weight: normal;
+   font-style: normal;
+   vertical-align: top;
+   width: 750px; 
+   min-height:100px;
+   
+}
+
+
+.link_style
+{
+    font-family: tahoma, arial;
+    font-size: small;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    vertical-align: middle;
+    color: White;
+    cursor:pointer;
+}
+
+
+
+.visited_link
+{
+    color: White;
+    border-style:none;
+  
+}
+.rowtable
+{
+    height:30px;
+    width:300px;
+    font-family:Tahoma Arial;
+    color:Black;
+    border-bottom-style: dotted; 
+    border-bottom-color: #FFFFFF;
+     border-bottom-width: thin;
+}
+
+.mainContent_mainpage
+
+{
+    font-family: tahoma, arial;
+    font-size: small;
+    font-weight: normal;
+    text-align: right;
+  
+    width: 750px;
+    top: 160px;
+    right: 310px;
+    float: right;
+    position: absolute;
+    min-height: 400px;
+    vertical-align: top;
+}
+.mainContent_message
+{
+    font-family: tahoma, arial;
+    font-size: small;
+    font-weight: normal;
+    text-align: right;
+    background-color: #9CAAC1;
+    width: 750px;
+    float: right;
+    position: relative;
+    min-height: 100px;
+    vertical-align: top;
+}
+
+.File_Content
+{
+    font-family: tahoma, arial;
+    font-size: small;
+    vertical-align: top;
+    text-align: right;
+    top: 0px;
+    width: 750px;
+    max-width:750px;
+    float: right;
+    background-color: #8F98A6;
+    position: relative;
+    right: 0px;
+    min-height:200px;
+}
+
+.widthpic
+{
+    max-width:110px;
+    max-height:100px;
+    min-height:100px;
+    min-width:110px;
+}
+    

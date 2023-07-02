@@ -1,0 +1,71 @@
+C:\Users\arman\Desktop\WebApplication6\WebApplication6\bin\WebApplication6.dll
+C:\Users\arman\Desktop\WebApplication6\WebApplication6\bin\WebApplication6.pdb
+C:\Users\arman\Desktop\WebApplication6\WebApplication6\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\arman\Desktop\WebApplication6\WebApplication6\obj\Debug\WebApplication6.dll
+C:\Users\arman\Desktop\WebApplication6\WebApplication6\obj\Debug\WebApplication6.pdb
+C:\Users\arman\Desktop\WebApplication6\WebApplication6\bin\CKEditor.NET.pdb
+C:\Users\arman\Desktop\WebApplication6\WebApplication6\WebApplication6\bin\WebApplication6.dll
+C:\Users\arman\Desktop\WebApplication6\WebApplication6\WebApplication6\bin\WebApplication6.pdb
+C:\Users\arman\Desktop\WebApplication6\WebApplication6\WebApplication6\bin\CKEditor.NET.pdb
+C:\Users\arman\Desktop\WebApplication6\WebApplication6\WebApplication6\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\arman\Desktop\WebApplication6\WebApplication6\WebApplication6\obj\Debug\WebApplication6.dll
+C:\Users\arman\Desktop\WebApplication6\WebApplication6\WebApplication6\obj\Debug\WebApplication6.pdb
+C:\Users\sharifi\Desktop\WebApplication6\WebApplication6\WebApplication6\bin\WebApplication6.dll
+C:\Users\sharifi\Desktop\WebApplication6\WebApplication6\WebApplication6\bin\WebApplication6.pdb
+C:\Users\sharifi\Desktop\WebApplication6\WebApplication6\WebApplication6\bin\CKEditor.NET.pdb
+C:\Users\sharifi\Desktop\WebApplication6\WebApplication6\WebApplication6\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sharifi\Desktop\WebApplication6\WebApplication6\WebApplication6\obj\Debug\WebApplication6.dll
+C:\Users\sharifi\Desktop\WebApplication6\WebApplication6\WebApplication6\obj\Debug\WebApplication6.pdb
+G:\takhasosi\project_ba\all project\arman\WebApplication6\WebApplication6\WebApplication6\bin\WebApplication6.dll
+G:\takhasosi\project_ba\all project\arman\WebApplication6\WebApplication6\WebApplication6\bin\WebApplication6.pdb
+G:\takhasosi\project_ba\all project\arman\WebApplication6\WebApplication6\WebApplication6\bin\CKEditor.NET.pdb
+G:\takhasosi\project_ba\all project\arman\WebApplication6\WebApplication6\WebApplication6\obj\Debug\MyCloop.csprojResolveAssemblyReference.cache
+G:\takhasosi\project_ba\all project\arman\WebApplication6\WebApplication6\WebApplication6\obj\Debug\WebApplication6.dll
+G:\takhasosi\project_ba\all project\arman\WebApplication6\WebApplication6\WebApplication6\obj\Debug\WebApplication6.pdb
+J:\ \arman\WebApplication6\WebApplication6\WebApplication6\bin\WebApplication6.dll
+J:\ \arman\WebApplication6\WebApplication6\WebApplication6\bin\WebApplication6.pdb
+J:\ \arman\WebApplication6\WebApplication6\WebApplication6\bin\CKEditor.NET.pdb
+J:\ \arman\WebApplication6\WebApplication6\WebApplication6\obj\Debug\MyCloop.csprojResolveAssemblyReference.cache
+J:\ \arman\WebApplication6\WebApplication6\WebApplication6\obj\Debug\WebApplication6.dll
+J:\ \arman\WebApplication6\WebApplication6\WebApplication6\obj\Debug\WebApplication6.pdb
+D:\Arman\arman\WebApplication6\WebApplication6\WebApplication6\bin\WebApplication6.dll
+D:\Arman\arman\WebApplication6\WebApplication6\WebApplication6\bin\WebApplication6.pdb
+D:\Arman\arman\WebApplication6\WebApplication6\WebApplication6\bin\CKEditor.NET.pdb
+D:\Arman\arman\WebApplication6\WebApplication6\WebApplication6\obj\Debug\MyCloop.csprojResolveAssemblyReference.cache
+D:\Arman\arman\WebApplication6\WebApplication6\WebApplication6\obj\Debug\WebApplication6.dll
+D:\Arman\arman\WebApplication6\WebApplication6\WebApplication6\obj\Debug\WebApplication6.pdb
+D:\project\arman\WebApplication6\WebApplication6\WebApplication6\bin\WebApplication6.dll
+D:\project\arman\WebApplication6\WebApplication6\WebApplication6\bin\WebApplication6.pdb
+D:\project\arman\WebApplication6\WebApplication6\WebApplication6\obj\Debug\WebApplication6.dll
+D:\project\arman\WebApplication6\WebApplication6\WebApplication6\obj\Debug\WebApplication6.pdb
+D:\project\arman\WebApplication6\WebApplication6\WebApplication6\bin\WebApplication6.dll.config
+D:\project\arman\WebApplication6\WebApplication6\WebApplication6\obj\Debug\MyCloop.csprojResolveAssemblyReference.cache
+D:\WebApplication6\WebApplication6\WebApplication6\obj\Debug\WebApplication6.dll
+D:\WebApplication6\WebApplication6\WebApplication6\bin\WebApplication6.dll.config
+D:\WebApplication6\WebApplication6\WebApplication6\bin\WebApplication6.dll
+D:\WebApplication6\WebApplication6\WebApplication6\bin\WebApplication6.pdb
+D:\WebApplication6\WebApplication6\WebApplication6\obj\Debug\WebApplication6.pdb
+D:\WebApplication6\WebApplication6\WebApplication6\obj\Debug\MyCloop.csprojResolveAssemblyReference.cache
+D:\WebApplication6\WebApplication6\WebApplication6\bin\Heidarpour.WebControlUI.dll
+D:\WebApplication6\WebApplication6\WebApplication6\bin\Heidarpour.WebControlUI.pdb
+C:\Users\arProg\Desktop\WebApplication6\WebApplication6\bin\WebApplication6.dll.config
+C:\Users\arProg\Desktop\WebApplication6\WebApplication6\bin\WebApplication6.dll
+C:\Users\arProg\Desktop\WebApplication6\WebApplication6\bin\WebApplication6.pdb
+C:\Users\arProg\Desktop\WebApplication6\WebApplication6\bin\Heidarpour.WebControlUI.pdb
+C:\Users\arProg\Desktop\WebApplication6\WebApplication6\obj\Debug\MyCloop.csprojResolveAssemblyReference.cache
+C:\Users\arProg\Desktop\WebApplication6\WebApplication6\obj\Debug\WebApplication6.dll
+C:\Users\arProg\Desktop\WebApplication6\WebApplication6\obj\Debug\WebApplication6.pdb
+C:\Users\arProg\Desktop\Shortcut\WebApplication6\WebApplication6\bin\WebApplication6.dll.config
+C:\Users\arProg\Desktop\Shortcut\WebApplication6\WebApplication6\bin\WebApplication6.dll
+C:\Users\arProg\Desktop\Shortcut\WebApplication6\WebApplication6\bin\WebApplication6.pdb
+C:\Users\arProg\Desktop\Shortcut\WebApplication6\WebApplication6\bin\Heidarpour.WebControlUI.pdb
+C:\Users\arProg\Desktop\Shortcut\WebApplication6\WebApplication6\obj\Debug\MyCloop.csprojResolveAssemblyReference.cache
+C:\Users\arProg\Desktop\Shortcut\WebApplication6\WebApplication6\obj\Debug\WebApplication6.dll
+C:\Users\arProg\Desktop\Shortcut\WebApplication6\WebApplication6\obj\Debug\WebApplication6.pdb
+C:\Users\arProg\Desktop\Shortcut File\Shortcut\WebApplication6\WebApplication6\bin\WebApplication6.dll.config
+C:\Users\arProg\Desktop\Shortcut File\Shortcut\WebApplication6\WebApplication6\bin\WebApplication6.dll
+C:\Users\arProg\Desktop\Shortcut File\Shortcut\WebApplication6\WebApplication6\bin\WebApplication6.pdb
+C:\Users\arProg\Desktop\Shortcut File\Shortcut\WebApplication6\WebApplication6\bin\Heidarpour.WebControlUI.pdb
+C:\Users\arProg\Desktop\Shortcut File\Shortcut\WebApplication6\WebApplication6\obj\Debug\MyCloop.csprojResolveAssemblyReference.cache
+C:\Users\arProg\Desktop\Shortcut File\Shortcut\WebApplication6\WebApplication6\obj\Debug\WebApplication6.dll
+C:\Users\arProg\Desktop\Shortcut File\Shortcut\WebApplication6\WebApplication6\obj\Debug\WebApplication6.pdb

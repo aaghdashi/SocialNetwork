@@ -1,0 +1,52 @@
+/*
+ * Lean Slider v1.0
+ * http://dev7studios.com/lean-slider
+ *
+ * Copyright 2012, Dev7studios
+ * Free to use and abuse under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ */
+ 
+.lean-slider { 
+    position: relative; 
+    *zoom: 1;
+}
+.lean-slider:before,
+.lean-slider:after {
+    content: " ";
+    display: table;
+}
+.lean-slider:after {
+    clear: both;
+}
+
+.lean-slider-slide { 
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    display: none; 
+}
+.lean-slider-slide.current { display: block; }
+/*  gray menu */
+div.navgray { position:relative; width:797px; height:50px; font-size:14px; color:#999; margin: 0 auto; margin-top: 20px;}
+div.navgray ul { list-style:none; color: #222;}
+div.navgray ul li {
+	float: right;
+	position: relative;
+}
+div.navgray ul li a { border-right:1px solid #bebebe; border-left:1px solid #FFF; padding:20px; display:block; text-decoration:none; text-align:center; color:#222; background: #5b862c; background: -moz-linear-gradient(top, #e3e3e3, #c8c8c8);background: -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(#c8c8c8)); text-shadow: 0 -1px 0 #FFF;}
+div.navgray ul li a:hover { background: #647db5; background: -moz-linear-gradient(top, #c8c8c8, #f7f7f7);background: -webkit-gradient(linear, left top, left bottom, from(#c8c8c8), to(#f7f7f7));} 
+div.navgray ul li ul {display: none;}
+div.navgray ul li:hover ul {
+	display: block;
+	position: absolute;
+	top: 56px;
+	min-width: 200px;
+	margin-top: -1px;
+	right: 0px;
+}	
+div.navgray ul li:hover ul li a {display:block; color:#222; width: 110px; text-align: center; border-bottom: 1px solid #bebebe; border-top: 1px solid #FFF; background: #e3e3e3;}
+div.navgray ul li ul li:first-child a {border-top:none;}
+div.navgray ul li ul li:last-child a {border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; -moz-border-radius-bottomleft: 5px; -moz-border-radius-bottomright: 5px; -webkit-border-bottom-right-radius: 5px; -webkit-border-bottom-left-radius: 5px; }
+div.navgray ul li:hover ul li a:hover { background:#f7f7f7; color:#222; }
+/*  end of gray menu */

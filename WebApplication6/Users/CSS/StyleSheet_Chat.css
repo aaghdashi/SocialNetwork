@@ -1,0 +1,31 @@
+﻿
+.head
+{
+     font-family: tahoma, arial;
+     font-size: small;
+     font-style: normal;
+     width: 750px;
+     top: 10px;
+     right: 260px;
+     position: absolute;
+     float: right;
+     max-height: 200px;
+     background-color: #9CAAC1;
+     overflow: scroll;
+     color: #FFFFFF;
+    }
+    .body
+ {
+     font-family: tahoma, arial;
+     font-size: small;
+     font-weight: normal;
+     text-align: right; 
+     background-color: #9CAAC1;
+     width: 750px; 
+     height:500px;
+     top: 225px;
+     right: 260px;
+     float: right;
+     position: absolute;
+     vertical-align: top;
+}

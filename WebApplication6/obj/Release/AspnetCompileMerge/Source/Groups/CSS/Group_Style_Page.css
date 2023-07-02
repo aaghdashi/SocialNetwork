@@ -1,0 +1,168 @@
+﻿body 
+{
+    font-family: tahoma, arial;
+    font-size: small;
+    font-weight: normal;
+    text-align: right;
+    background-repeat: repeat;
+    width: 1024px;
+    height:760px;
+        border-radius:3px 4px;
+
+}
+
+.Header
+{
+    font-family: tahoma, arial;
+    font-size: small;
+    font-style: normal;
+    font-weight: normal;
+    vertical-align: middle;
+    width: 1024px;
+    height: 140px;
+    top: 10px;
+    right: 160px;
+    position: absolute;
+    float: right;
+    background-color: #43577B;
+        border-radius:3px 4px;
+
+}
+
+.HeaderTable
+{
+    width: 1024px;
+    font-family: tahoma, arial;
+    font-size: small;
+    font-weight: normal;
+    font-style: normal;
+    vertical-align: middle;
+    text-align: right;
+    height: 140px;
+        border-radius:3px 4px;
+
+}
+.RightPanel
+{
+    font-family: tahoma, arial;
+    font-size: small;
+    vertical-align: middle;
+    text-align: right;
+    position: absolute;
+    width: 140px;
+    float: right;
+    right: 160px;
+    top: 160px;
+    background-color: #45597C;
+    border-radius:3px 4px;
+
+}
+.CellRightPanel
+{
+    font-family: tahoma, arial;
+    font-size: small;
+    vertical-align: middle;
+    text-align: right;
+    color: #BCC7D8;
+    width: 140px;
+    height: 30px;
+}
+
+.MainContent
+{
+    font-family: tahoma, arial;
+    font-size: small;
+    font-weight: normal;
+    text-align: right;
+    background-color: #9CAAC1;
+    width: 874px;
+    top: 160px;
+    right: 310px;
+    float: right;
+    position: absolute;
+    vertical-align: top;
+    min-height:400px;
+        border-radius:3px 4px;
+
+}
+
+.visited_link
+{
+    color: White;
+    
+}
+
+.link_style
+{
+    font-family: tahoma, arial;
+    font-size: small;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    vertical-align: middle;
+    color: White;
+    cursor:pointer;
+}
+.rowtable
+{
+    height:17px;
+    width:300px;
+    font-family:Tahoma Arial;
+    color:Black;
+    border-bottom-style: dotted; 
+    border-bottom-color: #FFFFFF;
+    border-bottom-width: thin;
+    text-align:center;
+}
+.widthpic
+{
+    max-width:240px;
+    max-height:320px;
+    min-height:320px;
+    min-width:240px;
+   border-radius:4px 5px;
+}
+ 
+.widthpic2
+{
+    max-width:640px;
+    max-height:480px;
+    min-height:480px;
+    min-width:640px;
+    align-items:center;
+   border-radius:4px 5px;
+}
+.imagep
+{
+    max-width:60px;
+    max-height:80px;
+    
+    min-width:60px;
+   border-radius:18px 18px;
+}
+   
+.picuser
+{
+    max-width:120px;
+    max-height:120px;
+    
+    min-width:80px;
+   border-radius:4px 5px;
+}
+.File_Content
+{
+    font-family: tahoma, arial;
+    font-size: small;
+    vertical-align: middle;
+    text-align: right;
+    top: 0px;
+    width: 750px;
+    max-width:750px;
+    float: right;
+    background-color: #8F98A6;
+    position: relative;
+    right: 0px;
+    min-height:200px;
+        border-radius:3px 4px;
+
+}

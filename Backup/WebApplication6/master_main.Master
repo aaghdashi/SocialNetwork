@@ -1,0 +1,106 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="master_main.master.cs"
+    Inherits="WebApplication6.master_main" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<asp:contentplaceholder id="head" runat="server">
+    </asp:contentplaceholder>
+<head id="Head1" runat="server">
+    <title>MyCloop</title>
+    <style type="text/css">
+        li
+        {
+            display: inline;
+            list-style-type: none;
+            border: 0;
+            list-style-position: inside;
+            margin-top: 5px;
+            direction: rtl;
+            border-style: none;
+            outline-style: none;
+            padding: 2px 0px 0px 0px;
+            font-style: oblique;
+            color: #115199;
+            cursor: auto;
+            text-align: center;
+            vertical-align: text-top;
+            bottom: 2px;
+            cursor:pointer;
+        }
+        a
+        {
+            border-style: none;
+            outline-color: none;
+            vertical-align: text-top;
+            font-size: larger;
+            font-family: Tahoma,Arial;
+            text-decoration: none;
+            text-transform: none;
+            cursor:pointer;
+        }
+        a:hover
+        {
+            cursor: pointer;
+            font-size:medium;
+            color:White;
+        }
+        
+        </style>
+</head>
+<body bgcolor="White">
+    <form name="main" runat="server" method="post">
+    <table id="Table_01" width="960" border="0" cellpadding="0" cellspacing="0" align="center"
+        bgcolor="White" style="font-family: tahoma, 'b zar', arial">
+        <tr>
+            <td height="190" 
+                style="background-image: url('/images/banner.jpg'); background-repeat: no-repeat;">
+        </tr>
+        <tr>
+            <td style="background-image: url('images/menu.jpg'); background-attachment: inherit;
+                background-repeat: no-repeat; height: 38px; width: 960px; vertical-align: top;
+                font-family: tahoma, arial;" align="center" dir="rtl" valign="top">
+                <ul style="border-style: none; font-family: arial, tahoma; text-align: center; direction: rtl;
+                    list-style-type: none; font-size: small;" type="none">
+                    <a href="Default.aspx">
+                        <li>صحفه اصلی&nbsp; </li>
+                    </a>
+                    <li>| </li>
+                    <a href="login.aspx">
+                        <li>ورود اعضا&nbsp; </li>
+                    </a>
+                    <li>|</li>
+                    <a href="signup.aspx">
+                        <li>&nbsp; عضویت&nbsp; </li>
+                    </a>
+                    <li>| </li>
+                    <a href="search_user.aspx">
+                        <li>&nbsp;کاربران عضو&nbsp; </li>
+                    </a>
+                    <li>| </li>
+                    <a href="rules.aspx">
+                        <li>&nbsp; قوانین&nbsp; </li>
+                    </a>
+                    <li>|&nbsp; </li>
+                    <a href="about.aspx">
+                        <li>&nbsp;درباره...</li></a>
+                    <li>&nbsp; |&nbsp;&nbsp; </li>
+                    <a href="contact.aspx">
+                        <li>ارتباط با ...&nbsp; </li>
+                    </a>
+                </ul>
+        </tr>
+        <tr>
+            <td>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+        <tr>
+            <td height="35" style="background-image: url(images/footer.jpg); background-repeat: no-repeat;
+                background-position: center center" width="35">
+        </tr>
+   </table>  
+    </form>
+                
+</body>
+</html>
